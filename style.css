@@ -308,6 +308,49 @@ img.award {
   }
 }
 
+/* ===== เพิ่มส่วนนี้ออกมานอก media query เพื่อให้มีผลทุกขนาดหน้าจอ ===== */
+.activity-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+}
+
+.activity-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+}
+
+#activities {
+  background-color: white; /* พื้นหลังสีขาว */
+  padding: 20px;
+  border-radius: 10px; /* ขอบโค้งมน */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* เงานิดๆ เพื่อความลึก */
+  max-width: 900px; /* กำหนดความกว้างสูงสุด */
+  margin: 40px auto; /* เว้นวรรคด้านบน-ล่าง และจัดกึ่งกลาง */
+}
+
+.activity-row img {
+  width: 300px;      /* ใช้ 40% ของความกว้าง viewport */
+  max-width: 300px; /* ขนาดสูงสุดเพิ่มเป็น 300px */
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.caption {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal; /* ไม่หนา */
+  color: #444;
+  margin-top: 12px;
+}
+/* ===== ส่วนนี้ยังคงอยู่ใน media query ตามเดิม ===== */
 @media (max-width: 480px) {
   .certificate-item img {
     max-width: 120px;
@@ -316,5 +359,4 @@ img.award {
   .certificate-item p {
     font-size: 13px;
   }
-  
 }
