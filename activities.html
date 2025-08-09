@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>กิจกรรม</title>
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container">
+    <section id="activities">
+      <h2><i class="fas fa-running"></i> กิจกรรม</h2>
 
-  <section id="activities">
-  <h2><i class="fas fa-running"></i> กิจกรรม</h2>
-  <div class="activity-row">
-    <img src="images/22966_0.jpg" alt="กิจกรรม 1" />
-    <img src="images/19.jpg" alt="กิจกรรม 2" />
-    <img src="images/21.jpg" alt="กิจกรรม 3" />
+      <div class="activity-set">
+        <div class="activity-gallery">
+          <img src="images/22966_0.jpg" alt="กิจกรรม 1">
+          <img src="images/22966_0.jpg" alt="กิจกรรม 2">
+          <img src="images/22966_0.jpg" alt="กิจกรรม 3">
+        </div>
+        <p class="activity-caption">กิจกรรมอบรม AI และวิทยาศาสตร์</p>
+      </div>
+
+      <div class="back-button">
+        <button onclick="window.history.length > 1 ? window.history.back() : window.location.href='index.html'">
+          ย้อนกลับ
+        </button>
+      </div>
+    </section>
   </div>
-  <div class="caption">เข้าร่วมอบรมด้านวิทยาศาสตร์และปัญญาประดิษฐ์ ณ มหาวิทยาลัยสวนดุสิตและมหาวิทยาลัยพระจอมเกล้าพระนครเหนือ</div>
-
-    <div class="back-button" style="margin-top:20px;">
-      <button onclick="window.history.length > 1 ? window.history.back() : window.location.href='index.html'">ย้อนกลับ</button>
-    </div>
-  </section>
-
 </body>
 </html>
