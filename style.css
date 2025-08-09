@@ -315,14 +315,14 @@ img.award {
 
 .activity-gallery {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* โน๊ตบุ๊คเรียงแนวนอน */
 }
 
 .activity-gallery img {
-  width: 200px;
-  height: 140px;
+  width: 180px;       /* ขนาดเล็กลง */
+  height: 120px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
@@ -345,12 +345,13 @@ img.award {
     font-size: 13px;
   }
   .activity-gallery {
-    flex-direction: column;
+    flex-direction: column; /* มือถือเรียงแนวตั้ง */
     align-items: center;
   }
   .activity-gallery img {
-    width: 100%;
-    max-width: 320px;
+    width: 90%;
+    max-width: 250px;
     height: auto;
   }
+
 }
