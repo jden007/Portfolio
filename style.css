@@ -308,7 +308,7 @@ img.award {
   }
 }
 
-/* === ACTIVITY GALLERY === */
+
 .activity-set {
   margin-bottom: 40px;
 }
@@ -316,12 +316,12 @@ img.award {
 .activity-gallery {
   display: flex;
   gap: 15px;
-  justify-content: center;
-  flex-wrap: nowrap; /* โน๊ตบุ๊คเรียงแนวนอน */
+  justify-content: left;
+  flex-wrap: nowrap;
 }
 
 .activity-gallery img {
-  width: 180px;       /* ขนาดเล็กลง */
+  width: 180px;
   height: 120px;
   object-fit: cover;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
