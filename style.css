@@ -317,14 +317,6 @@ img.award {
   flex-wrap: nowrap;
 }
 
-.activity-row {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
-  flex-wrap: nowrap;
-}
-
 #activities {
   background-color: white;
   max-width: 900px;
@@ -360,5 +352,16 @@ img.award {
 
   .certificate-item p {
     font-size: 13px;
+
   }
+
+  .activity-row {
+  display: flex;
+  justify-content: center;
+}
+
+.activity-row img {
+  width: 300px;      /* ใช้ 40% ของความกว้าง viewport */
+  max-width: 300px; /* ขนาดสูงสุดเพิ่มเป็น 300px */
+}
 }
