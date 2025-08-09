@@ -324,19 +324,17 @@ img.award {
   width: 180px;       /* ขนาดเล็กลง */
   height: 120px;
   object-fit: cover;
-  border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .activity-caption {
-  text-align: center;
+  text-align:left;
   font-size: 16px;
   font-weight: 500;
   color: #444;
   margin-top: 12px;
 }
 
-/* ===== ส่วนนี้ยังคงอยู่ใน media query ตามเดิม ===== */
 @media (max-width: 480px) {
   .certificate-item img {
     max-width: 120px;
@@ -345,7 +343,7 @@ img.award {
     font-size: 13px;
   }
   .activity-gallery {
-    flex-direction: column; /* มือถือเรียงแนวตั้ง */
+    flex-direction: column;
     align-items: center;
   }
   .activity-gallery img {
