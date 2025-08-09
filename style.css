@@ -324,7 +324,7 @@ img.award {
   width: 180px;
   height: 120px;
   object-fit: cover;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .activity-caption {
